@@ -1,0 +1,4 @@
+.ipynb_checkpoints/
+.metals/
+*.log
+*.tar
