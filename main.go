@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {fmt.Fprint(w, "hello from web page")})
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprint(w, "\nhello from web page!!!!!!!!!\n")
+	})
 	http.ListenAndServe(":8080", nil)
 }
