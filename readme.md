@@ -24,6 +24,18 @@ microk8s kubectl get all --all-namespaces
 ```shell
 microk8s dashboard-proxy
 ```
+
+## Installing golang 1.16.3
+```shell
+sudo snap install go --classic
+```
+
+## setting environment vars:
+```shell
+export GOPATH=/home/student/go
+export GOBIN=/home/student/go/bin
+```
+
 ## write sample app:
 Follow instruction from here: `https://medium.com/manikkothu/build-and-deploy-apps-on-microk8s-1df26d1ddd3c`
 
